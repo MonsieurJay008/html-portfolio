@@ -1,0 +1,325 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.inside-container {
+    height: 100vh;
+    background: url("./asssets/Omobolaji-bj.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* Navigation Styles */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 9rem;
+}
+
+.nav-items li {
+    display: inline;
+    padding: 10px;
+}
+
+.nav-items a {
+    font-size: 1.2rem;
+    color: black;
+}
+
+.nav-items a:hover {
+    text-decoration: underline 2px solid black;
+}
+
+.nav-name h3 {
+    font-size: 1.8rem;
+    color: white;
+}
+
+.nav-items , .nav-name {
+    padding-bottom: 2rem;
+}
+
+/* The Hero Section Styles */
+
+.hero {
+    padding: 15rem 0 0 3.5rem;
+}
+
+.hero h1 {
+    font-size: 3rem;
+}
+
+.hero p {
+    padding-left: 12rem;
+    font-size: 1.3rem;
+}
+
+.hero span {
+    font-family: cursive;
+    color: #201f35;
+}
+
+/* About Styles */
+
+.about {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    padding: 8rem 6rem 0 5rem;
+    align-items: center;
+}
+
+.inner-info h2 {
+    font-size: 2rem;
+    width: 60%;
+}
+
+.inner-info img {
+    padding-left: 23rem;
+}
+
+.info-btn {
+    padding-top: 1rem;
+}
+
+.info-btn button{
+    padding: 1rem;
+    border-radius: 1.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.info-btn button:hover {
+    text-decoration: underline;
+}
+
+.dark-btn {
+    background-color: black;
+    color: white;
+}
+
+.light-btn {
+    background-color: transparent;
+}
+
+/* Skills Styles */
+
+.skills {
+    padding: 7rem 4rem 3rem 5rem;
+}
+
+.skills-text {
+    text-align: center;
+    font-size: 1.6rem;
+}
+
+.skills-box {
+    display: flex;
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    padding-top: 4rem;
+}
+
+.skills-box img {
+    width: 400px;
+    height: 250px;
+    border-radius: 1.5rem;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.html-box, .css-box, .boot-box {
+    border: 1px solid black;
+    width: 398px;
+    margin-right: 10rem;
+    border-radius: 1.5rem;
+}
+
+.box-txt {
+    padding: 1rem;
+}
+
+.footer {
+    padding: 1rem 9rem 0 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 2px solid black;
+}
+
+.footer p {
+    font-size: 1.2rem;
+    padding-bottom: 1rem;
+}
+
+/* Mobile Size */
+
+@media (min-width: 319px) and (max-width: 765px) {
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    box-sizing: border-box;
+}
+
+.inside-container {
+    height: 40vh;
+}
+
+/* Mobile Nav-Bar */
+
+.navbar {
+    padding-right: 0;
+    padding-right: 0.5rem;
+    padding-left: 0;
+}
+
+.logo img {
+    height: 70px;
+}
+
+.nav-items a{
+    display: none;
+}
+
+.nav-name h3{
+    font-size: 0.9rem;
+}
+
+/* Mobile Hero */
+
+.hero {
+    padding-top: 3rem;
+    padding-left: 1.7rem;
+}
+
+.hero h1 {
+    font-size: 0.97rem;
+}
+
+.hero p {
+    font-size: 10px;
+    padding-left: 2.8rem;
+}
+
+/* About Mobile */
+
+.about {
+    padding: 3rem 2rem 0 1.5rem;
+}
+
+.inner-info h2{
+    font-size: 16px;
+    width: 90%;
+}
+
+.about img {
+    height: 90px;
+    margin-bottom: 6rem;
+}
+
+.info-btn button{
+    padding: 5px;
+    display: block;
+    width: 140%;
+    margin-top: 5px;
+}
+
+/* Mobile Skills  */
+
+.skills {
+    padding-left: 1rem;
+    padding-top: 3rem;
+}
+
+.skills-text {
+    font-size: 1rem;
+    margin-left: 4rem;
+}
+
+.skills-box {
+    display: block;
+    padding-left: 3rem;
+}
+
+.skills-box img {
+    height: 100px;
+    width: 200px;
+}
+
+.html-box, .css-box, .boot-box {
+    width: 199px;
+    margin: auto;
+    margin-bottom: 1rem;
+}
+
+.footer {
+    display: block;
+    padding-left: 6.5rem;
+}
+
+.footer img {
+    height: 90px;
+    /* margin-left: 1rem; */
+}
+
+.footer p {
+    text-align: center;
+}
+
+.footer-text {
+    margin-left: 1rem;
+    width: 100%;
+}
+
+.footer-txt {
+    padding-left: 1.5rem;
+}
+
+}
+
+@media (min-width:766px) and (max-width: 1024px) {
+
+    * {
+        box-sizing: border-box;
+    }
+
+    .navbar {
+        padding-right: 0;
+    }
+
+    .inside-container {
+        height: 60vh;
+    }
+
+    .hero {
+        padding-top: 7rem;
+    }
+
+    .hero h1 {
+        font-size: 2.6rem;
+    }
+
+    .inner-info h2 {
+        width: 90%;
+    }
+
+    .inner-info img {
+        padding: 0 0 3rem 2rem;
+    }
+
+    .skills-box {
+        display: block;
+    }
+
+    .html-box, .css-box, .boot-box {
+        margin: auto;
+        margin-bottom: 1rem;
+    }
+}
