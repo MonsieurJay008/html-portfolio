@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <style>
+
+        * {
+            text-decoration: none;
+            list-style: none;
+        }
+        nav {
+            display: flex;
+            justify-content: space-between;
+            padding-right: 3rem;
+            border-bottom: 3px solid #201f35;
+            /* padding: 0;
+            margin: 0; */
+            height: 110px;
+        }
+
+        .nav-home li {
+            padding-top: 2.5rem;
+        }
+
+        .nav-home a {
+            font-size: 1.5rem;
+            color: #201f35;
+        }
+
+        .inside-container {
+            padding-top: 5rem;
+        }
+
+        h2 {
+            text-align: center;
+            font-size: 2rem;
+            color: #201f35;
+        }
+
+        .images {
+            display: flex;
+            gap: 2rem;
+            justify-content: center;
+        }
+
+        .box {
+            padding: 4rem;
+        }
+
+        .html-container {
+            border-bottom: 3px solid #201f35;
+            /* border-top: 3px solid #201f35; */
+            border-bottom-right-radius: 2rem;
+            padding-bottom: 3rem;
+        }
+
+        .css-container {
+            border-bottom: 3px solid #201f35;
+            border-bottom-left-radius: 2rem;
+            padding-bottom: 4rem;
+        }
+
+        .boot-container {
+            border-bottom: 3px solid #201f35;
+            border-bottom-left-radius: 2rem;
+            border-bottom-right-radius: 2rem;
+            padding-bottom: 3rem;
+        }
+
+        footer {
+            display: flex;
+            justify-content: flex-end;
+            height: 20px;
+        }
+
+
+        @media (max-width: 1023px) {
+            * {
+                box-sizing: border-box;
+            }
+            .logo img {
+                height: 100px;
+            }
+
+            .nav-home li {
+                padding-top: 1.8rem;
+            }
+
+            .images {
+                flex-direction: column;
+            }
+
+            .images img {
+                height: 200px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <div class="logo"><img src="../asssets/ankor-logo (1).png" alt="ankor logo word" height="150px"></div>
+            <div class="nav-home"><li><a href="../index.html">Home</a></li></div>
+        </nav>
+
+        <div class="inside-container">
+
+        <div class="html-container">
+            <h2>HTML Projects</h2>
+            <div class="html images">
+                <img src="./project assets/html-portfolio img.png" alt="html portfolio image" height="250px">
+                <img src="./project assets/resume-img.png" alt="resume image" height="250px">
+                <img src="./project assets/movies img.png" alt="movies project image" height="250px">
+            </div>
+        </div>
+
+        <div class="css-container box">
+            <h2>CSS Projects</h2>
+            <div class="css images">
+                <img src="./project assets/agent img.png" alt="dev agency projects image" height="250px">
+                <img src="./project assets/mondrian img.png" alt="mondrian painting image" height="250px">
+            </div>
+        </div>
+
+        <div class="boot-container box">
+            <h2>BootStrap Projects</h2>
+            <div class="boot images">
+                <img src="./project assets/move-it img.png" alt="move it project image" height="250px">
+                <img src="./project assets/tindog img.png" alt="tindog project image" height="250px">
+            </div>
+        </div>
+
+        <footer>
+            <div><a href="./project.html"><img src="../asssets/ankor-logo (1).png" alt="ankor word logo" height="120px"></a></div>
+        </footer>
+    </div>
+    </div>
+</body>
+</html>
